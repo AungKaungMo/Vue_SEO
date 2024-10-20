@@ -1,7 +1,8 @@
 // src/router/index.ts
-import { createRouter, createWebHistory, createMemoryHistory } from 'vue-router';
+import { createWebHistory } from 'vue-router';
 import Home from '../pages/Home.vue';
 import About from '../pages/About.vue';
+import { createRouter } from 'vite-plugin-ssr'
 
 const routes = [
   {
@@ -17,7 +18,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: import.meta.env.SSR ? createMemoryHistory() : createWebHistory(),
+  history: createWebHistory(),
   routes,
 });
 

@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "vite-plugin-ssr": "^0.4.142",
     "vue": "^3.5.10"
   },
   "devDependencies": {
