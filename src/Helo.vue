@@ -15,7 +15,7 @@ import { useHead } from "@vueuse/head";
     { property: 'og:type', content: 'website' },
     { property: 'og:title', content: 'Testing' },
     { property: 'og:description', content: 'Testing with my purple' },
-    { property: 'og:image', content: '/030f8798-7e96-48d7-a0c2-682a0fbdc6d3.png' },
+    { property: 'og:image', content: 'https://helpful-lokum-b47748.netlify.app/030f8798-7e96-48d7-a0c2-682a0fbdc6d3.png' },
 
     // Twitter
     { name: 'twitter:card', content: 'summary_large_image' },
@@ -23,7 +23,7 @@ import { useHead } from "@vueuse/head";
     { property: 'twitter:url', content: 'https://helpful-lokum-b47748.netlify.app' },
     { name: 'twitter:title', content: 'Testing' },
     { name: 'twitter:description', content: 'Testing with my purple' },
-    { name: 'twitter:image', content: '/030f8798-7e96-48d7-a0c2-682a0fbdc6d3.png' },
+    { name: 'twitter:image', content: 'https://helpful-lokum-b47748.netlify.app/030f8798-7e96-48d7-a0c2-682a0fbdc6d3.png' },
   ],
 })
 
