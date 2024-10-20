@@ -6,12 +6,26 @@
   
   <script setup>
   import { useHead } from '@unhead/vue';
-  
   useHead({
-    title: 'Home - Car ATM',
-    meta: [
-      { name: 'description', content: 'Welcome to the Car ATM homepage, where you can find cars for sale and schedule service appointments.' }
-    ]
-  });
+  title: 'Testing HOME',
+  meta: [
+    { name: 'description', content: 'Testing with my home bby' },
+
+    // Open Graph / Facebook
+    { property: 'og:url', content: 'https://helpful-lokum-b47748.netlify.app' },
+    { property: 'og:type', content: 'website' },
+    { property: 'og:title', content: 'Testing' },
+    { property: 'og:description', content: 'Testing with my home bby' },
+    { property: 'og:image', content: 'https://helpful-lokum-b47748.netlify.app/030f8798-7e96-48d7-a0c2-682a0fbdc6d3.png' },
+
+    // Twitter
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { property: 'twitter:domain', content: 'helpful-lokum-b47748.netlify.app' },
+    { property: 'twitter:url', content: 'https://helpful-lokum-b47748.netlify.app' },
+    { name: 'twitter:title', content: 'Testing' },
+    { name: 'twitter:description', content: 'Testing with my home bby' },
+    { name: 'twitter:image', content: 'https://helpful-lokum-b47748.netlify.app/030f8798-7e96-48d7-a0c2-682a0fbdc6d3.png' },
+  ],
+})
   </script>
   
