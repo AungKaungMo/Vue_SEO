@@ -1,8 +1,10 @@
+
 <script setup>
+import Helo from './Helo.vue'
 </script>
 
 <template>
   <div>
-    hellos
+    <Helo />
   </div>
 </template>
