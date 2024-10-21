@@ -9,5 +9,8 @@ export default defineConfig({
   ssr: {
     noExternal: ['vue-router'], // Ensure vue-router is not bundled
   },
-
+  server: {
+    host: '0.0.0.0', // Allow access from outside localhost
+    port: 8008, // Specify the port you want
+  },
 });
