@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite-ssg build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "express": "^4.21.1",
     "vite-plugin-ssr": "^0.4.142",
     "vue": "^3.5.10"
   },

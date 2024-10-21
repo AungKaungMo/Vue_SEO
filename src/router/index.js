@@ -1,8 +1,7 @@
 // src/router/index.ts
-import { createWebHistory } from 'vue-router';
+import { createWebHistory, createRouter } from 'vue-router';
 import Home from '../pages/Home.vue';
 import About from '../pages/About.vue';
-import { createRouter } from 'vite-plugin-ssr'
 
 const routes = [
   {
